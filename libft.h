@@ -6,7 +6,7 @@
 /*   By: mumujic <mumujic@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/24 20:59:53 by mumujic           #+#    #+#             */
-/*   Updated: 2022/10/25 14:19:34 by mumujic          ###   ########.fr       */
+/*   Updated: 2022/11/04 10:15:33 by mumujic          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_strdup(const char *s);
 char	*ft_strnstr(const char *s1, const char *s2, size_t n);
+char	*ft_substr(const char *str, unsigned int start, size_t len);
 
 size_t	ft_strlen(const char *str);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstzise);
