@@ -6,7 +6,7 @@
 /*   By: mumujic <mumujic@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 15:44:53 by mumujic           #+#    #+#             */
-/*   Updated: 2022/10/25 15:53:35 by mumujic          ###   ########.fr       */
+/*   Updated: 2022/11/04 09:17:15 by mumujic          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@ char	*ft_strdup(const char *s)
 {
 	char	*str;
 
-	str = malloc((ft_strlen(s) +1) * sizeof(char));
+	str = (char *)malloc((ft_strlen(s) +1) * sizeof(char));
 	if (!str)
 		return (NULL);
-	ft_memcpy(str, s, ft_strlen(str) + 1);
+	ft_memcpy(str, s, ft_strlen(s) + 1);
 	return (str);
 }
