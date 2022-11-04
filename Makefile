@@ -6,7 +6,7 @@
 #    By: mumujic <mumujic@student.42lausanne.ch>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/25 20:04:10 by mumujic           #+#    #+#              #
-#    Updated: 2022/11/04 10:32:42 by mumujic          ###   ########.fr        #
+#    Updated: 2022/11/04 15:50:39 by mumujic          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,6 +39,7 @@ FILES	=	ft_atoi.c \
 			ft_tolower.c \
 			ft_substr.c \
 			ft_strjoin.c \
+			ft_strtrim.c \
 			ft_toupper.c
 OBJ		=	$(FILES:.c=.o)
 
