@@ -44,7 +44,8 @@ FILES	=	ft_atoi.c \
 			ft_putstr_fd.c \
 			ft_putendl_fd.c \
 			ft_putnbr_fd.c \
-			ft_toupper.c
+			ft_toupper.c \
+			ft_split.c 
 OBJ		=	$(FILES:.c=.o)
 
 all: $(NAME)
